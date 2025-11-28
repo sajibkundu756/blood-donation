@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blood Donor</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+    <div class="container">
+      <a class="navbar-brand fw-bold text-danger" href="#">
+        <span class="fs-4">🩸 Blood Donor</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+              data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" 
+              aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link text-danger fw-bold" href="./home.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="./find-doner.html">Find Donor</a></li>
+          <li class="nav-item"><a class="nav-link" href="./Blood-request.html">Blood Request</a></li>
+          <li class="nav-item"><a class="nav-link" href="./home.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="./home.html">Contact</a></li>
+          <li class="nav-item"><a class="nav-link" href="./Member-list.html">Member list</a></li>
+        </ul>
+        <a href="#" class="btn btn-outline-danger ms-3">Sign In</a>
+      </div>
+    </div>
+  </nav>
+
+<!-- Hero Section -->
+<section class="py-5 bg-light">
+  <div class="container d-flex align-items-center justify-content-between">
+    <div class="col-md-6">
+      <h1 class="fw-bold">One <span class="text-danger">Drop</span> Can Save a Life</h1>
+      <p class="text-muted">
+        Thousands of patients depend on blood donations every day. Your generosity can bring hope to accident victims,
+        cancer patients, and newborns. One movement and someone’s lifetime.
+      </p>
+      <a href="#" class="btn btn-danger me-2">Blood Request</a>
+      <a href="#" class="btn btn-outline-danger">Donate Blood</a>
+    </div>
+    <div class="col-md-5 text-center">
+      <img src="home1.png" alt="Blood Donation" class="img-fluid">
+    </div>
+  </div>
+</section>
+
+<!-- Services Section -->
+<section class="py-5">
+  <div class="container text-center">
+    <h3 class="fw-bold mb-4">Our Services</h3>
+    <div class="row g-4">
+      <div class="col-md-3">
+        <div class="card shadow-sm p-3">
+          <img src="home4.svg" alt="" class="mx-auto" width="60">
+          <h6 class="mt-3">Smart Matching System</h6>
+          <p class="text-muted small">Our system automatically connects patients with verified donors.</p>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card shadow-sm p-3">
+          <img src="home5.jpg.svg" alt="" class="mx-auto" width="60">
+          <h6 class="mt-3">Emergency Blood</h6>
+          <p class="text-muted small">We ensure blood access during emergencies by responding quickly.</p>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card shadow-sm p-3">
+          <img src="home6.svg" alt="" class="mx-auto" width="60">
+          <h6 class="mt-3">Blood Donor</h6>
+          <p class="text-muted small">Provide updated donor details and access to available matches.</p>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card shadow-sm p-3">
+          <img src="home7.svg" alt="" class="mx-auto" width="60">
+          <h6 class="mt-3">Ambulance Service</h6>
+          <p class="text-muted small">Our system immediately alerts nearby ambulances.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Find Donor Section -->
+<section class="py-5 bg-light">
+  <div class="container">
+    <h3 class="fw-bold text-center mb-4">Find Blood Donor</h3>
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <img src="home2.png" alt="Blood Bags"width="500" class="img-fluid rounded shadow">
+      </div>
+      <div class="col-md-6">
+        <div class="card p-4 shadow-sm">
+          <h6>Please Enter the required Field</h6>
+          <form>
+            <div class="mb-3">
+              <label class="form-label">Blood Group</label>
+              <select class="form-select">
+                <option>Select Blood Group</option>
+                <option>A+</option><option>A-</option>
+                <option>B+</option><option>B-</option>
+                <option>AB+</option><option>AB-</option>
+                <option>O+</option><option>O-</option>
+              </select>
+            </div>
+            <div class="mb-3">
+              <label class="form-label">City</label>
+              <input type="text" class="form-control" placeholder="Enter City">
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Date of Donation</label>
+              <input type="date" class="form-control">
+            </div>
+            <button type="submit" class="btn btn-danger w-100">Search Available Donor</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Blood Request Section -->
+<section class="py-5">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <h3 class="fw-bold text-danger">Blood Request</h3>
+        <p>
+          If you or a loved one is in need of blood or if you’d like to help others by becoming a donor, place a request now. 
+          Our team will verify and connect you to a suitable donor.
+        </p>
+      </div>
+      <div class="col-md-6">
+        <img src="home3.png" alt="Blood Request" width="500" class="img-fluid rounded shadow">
+      </div>
+    </div>
+  </div>
+</section>
+
+<body class="d-flex flex-column min-vh-100">
+
+  <!-- মূল কনটেন্ট -->
+   
+  <main class="flex-fill">
+    <section class="py-5 text-center">
+      <h2 class="fw-bold">A Network of Heroes forCritical Blood Needs</h2>
+      <p class="text-muted">Whether it’s an emergency or planned surgery...</p>
+      <div class="row justify-content-center mt-4">
+        <div class="col-6 col-md-3">
+          <h4 class="fw-bold">120</h4>
+          <p class="text-muted mb-0">Donors</p>
+        </div>
+        <div class="col-6 col-md-3">
+          <h4 class="fw-bold">85</h4>
+          <p class="text-muted mb-0">Clinics</p>
+        </div>
+        <div class="col-6 col-md-3">
+          <h4 class="fw-bold">230</h4>
+          <p class="text-muted mb-0">Transfusions</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ফুটার -->
+  <footer class="bg-light text-dark mt-auto pt-5 pb-4">
+    <div class="container">
+      <div class="row">
+        <!-- Brand -->
+        <div class="col-md-3 mb-3">
+          <h5 class="fw-bold text-danger">Blood Donor</h5>
+          <p class="small text-muted">You bleed and heal lives. Every second counts...</p>
+          <ul class="list-unstyled small">
+            <li><i class="bi bi-geo-alt"></i> Address</li>
+            <li><i class="bi bi-telephone"></i> Phone</li>
+            <li><i class="bi bi-envelope"></i> Email</li>
+          </ul>
+        </div>
+        <!-- Info Links -->
+        <div class="col-md-3 mb-3">
+          <h6 class="fw-bold">Information Links</h6>
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-muted text-decoration-none">About Us</a></li>
+            <li><a href="#" class="text-muted text-decoration-none">Contact</a></li>
+          </ul>
+        </div>
+        <!-- Important Links -->
+        <div class="col-md-3 mb-3">
+          <h6 class="fw-bold">Important Links</h6>
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-muted text-decoration-none">Become a Donor</a></li>
+            <li><a href="#" class="text-muted text-decoration-none">Find Clinics</a></li>
+          </ul>
+        </div>
+        <!-- Social Links -->
+        <div class="col-md-3 mb-3">
+          <h6 class="fw-bold">Social Links</h6>
+          <a href="#" class="text-muted me-2"><i class="bi bi-facebook"></i></a>
+          <a href="#" class="text-muted me-2"><i class="bi bi-twitter"></i></a>
+          <a href="#" class="text-muted"><i class="bi bi-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
